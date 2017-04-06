@@ -26,6 +26,8 @@ public class TaskRepository {
 
     }
 
+    //dodac z wyrzuceniem prostego komunikatu
+    // napisac dwa testy
     public Task find(String id){
         return Optional.ofNullable(database.get(id))
                        .orElseThrow(() -> new TaskNotFoundException(id));
