@@ -17,8 +17,7 @@ public class User {
 
     public User(String username, String address) {
         this.username = username;
-        this.address = Optional.ofNullable(address)
-                               .orElse("Brak adresu");
+        this.address = Optional.ofNullable(address);
     }
 
     public String getUsername() {

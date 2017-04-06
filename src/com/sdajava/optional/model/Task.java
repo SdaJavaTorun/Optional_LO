@@ -38,7 +38,7 @@ public class Task {
         this.id = id;
     }
 
-    public Optional<User> getAssignetTo() {
+    public Optional<User> getAssignedTo() {
         return assignetTo;
     }
 
